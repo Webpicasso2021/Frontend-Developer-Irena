@@ -12,7 +12,6 @@ body {
 h1,
 h2,
 h3 {
-  text-align: center;
   margin: 0;
 }
 
@@ -102,6 +101,7 @@ p {
 
   h1 {
     font-size: 46px;
+    line-height: 1.5;
   }
 
   h2 {
@@ -112,7 +112,27 @@ p {
     font-size: 16px;
   }
 
+  p {
+    text-align: center;
+    padding: 10px 20px;
+  }
+
   .navigation-links {
     margin-top: 20px;
+  }
+
+  #weather-app,
+  #yogurt-app {
+    margin-top: 20px;
+  }
+
+  .primary-link {
+    display: block;
+    text-align: center;
+    margin: 20px;
+  }
+
+  #project-heading {
+    margin-left: 30px;
   }
 }
