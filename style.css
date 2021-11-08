@@ -93,3 +93,26 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+
+/*make it mobile friendly */
+@media (max-width: 576px) {
+  .project-pic {
+    display: none;
+  }
+
+  h1 {
+    font-size: 46px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  .navigation-links {
+    margin-top: 20px;
+  }
+}
